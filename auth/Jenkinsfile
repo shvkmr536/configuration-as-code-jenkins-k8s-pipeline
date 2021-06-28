@@ -7,7 +7,7 @@ node {
         ], doGenerateSubmoduleConfigurations: false, extensions: [
             [$class: 'WipeWorkspace']
         ], submoduleCfg: [], userRemoteConfigs: [
-            [credentialsId: 'jenkins-github-ssh',
+            [credentialsId: 'github',
             url: 'https://github.com/shvkmr536/configuration-as-code-jenkins-k8s-pipeline.git']
         ]
     ]
